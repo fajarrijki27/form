@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="header-title">
+            <img src="https://cdn.pixabay.com/photo/2016/10/28/10/51/heart-1777678_1280.png" alt="">
+            <h1>FORMULIR PENDAFTARAN</h1>
+            <h2>CALON SISWA/SISWI MTs ....................</h2>
+            <h2>TAHUN PELAJARAN 2016/2017</h2>
+        </div>
+        <div class="header-info">
+            <p>Sekretariat: Jl. .................. Kode Pos : .....</p>
+            <p>Email: .......@yahoo.co.id</p>
+            <p>Website: http://.........com</p>
+        </div>
+
+        <hr size="5" color="blue">
+        <hr size="2" color="blue"><br>
+        <form>
+            <table border="0" class="form-tabel">
+                <th colspan="3" class="underline"><h4>A. DATA PRIBADI CALON SISWA</h4></th>
+                <tr>
+                    <td><label for="namaLengkap">1. Nama Lengkap</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="namaLengkap" class="input-line" name="namaLengkap"></td>
+                    <td rowspan="4" class="coba">
+                        <table>
+                            <tr>
+                                <td>No. Pendaftaran</td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" class="no-pen"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td><label for="jenisKelamin">2. Jenis Kelamin</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="JenisKelamin" name="jenisKelamin" class="input-line"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="ttl">3. Tempat/Tgl. Lahir</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="ttl" class="input-line" name="ttl"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Alamat">4. Alamat</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="Alamat" class="input-line" name="Alamat"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="anak">5. Anak</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="anak" class="input-no" name="anak"> Dari <input type="text" id="anak" class="input-no" name="anak"> Bersaudara</td>
+                </tr>
+
+                <th colspan="3" class="underline"><h4>B. DATA ORANGTUA/WALI CALON SISWA</h4></th>
+                <tr>
+                    <td><label for="namaAyah">1. Nama Ayah</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="namaAyah" class="input-line" name="namaAyah"></td>
+                </tr>
+                <tr>
+                    <td><label for="namaIbu">2. Nama Ibu</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="namaIbu" class="input-line" name="namaIbu"></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="pekerjaanAyah">3. Pekerjaan Ayah</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="pekerjaanAyah" class="input-line" name="pekerjaanAyah"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="pekerjaanIbu">4. Pekerjaan Ibu</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="pekerjaanIbu" class="input-line" name="pekerjaanIbu"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Alamat">5. Alamat</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="Alamat" class="input-line" name="Alamat"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="no-telp">6. No Telp/Hp</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="no-telp" name="no-telp" class="input-line"></td>
+                </tr>
+                <tr>
+                    <td><label for="wali">7. Nama Wali</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="wali" name="wali" class="input-line"></td>
+                </tr>
+                <tr>
+                    <td><label for="pekerjaanWali">8. Pekerjaan Wali</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="pekerjaanWali" name="pekerjaanWali" class="input-line"></td>
+                </tr>
+                <tr>
+                    <td><label for="alamatWali">9. Alamat Wali</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="alamatWali" name="alamatWali" class="input-line"></td>
+                </tr>
+                
+                <th colspan="3" class="underline"><h4>C. ASAL SEKOLAH</h4></th>
+                <tr>
+                    <td><label for="namaSekolah">1. Nama Sekolah</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="namaSekolah" class="input-line" name="namaSekolah"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="statusSekolah">2. Status Sekolah</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="statusSekolah" name="statusSekolah" class="input-line"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="alamatSekolah">3. Alamat Sekolah</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="alamatSekolah" name="alamatSekolah" class="input-line"></td>
+                </tr>
+                <tr>
+                    <td><label for="nisn">4. NISN</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="nisn" name="nisn" class="input-line"></td>
+                </tr>
+                <tr>
+                    <td><label for="noPeserta">5. No. Peserta Un Sd </label></td>
+                    <td>:</td>
+                    <td><input type="text" id="noPeserta" name="noPeserta" class="input-line"></td>
+                </tr>
+
+                <th colspan="3" class="underline"><h4>D. DATA SKHU/IJAZAH</h4></th>
+                <tr>
+                    <td><label for="noSKHU">1. Nomor SKHU</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="noSKHU" class="input-line" name="noSKHU"></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="jumlahNilaiUn">2. Jumlah Nilai Un</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="jumlahNilaiUn" name="jumlahNilaiUn" class="input-line"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="NilaiRata-rataUn">2. Nilai Rata-rata Un</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="NilaiRata-rataUn" name="NilaiRata-rataUn" class="input-line"></td>
+                </tr>
+            </table>
+        </form>
+
+        <form action="">
+            <table class="tabel-tt">
+                <tr>
+                    <td style="padding-left: 20px;">
+                        <p>Mengetahu/Menyetujui :</p>
+                        <p>Orangtua/Wali calon siswa</p>
+                        <label for="ttdOrtu">Tanda Tangan Digital:</label>
+                        <canvas id="signature-pad-1" class="signature-pad-1" width=200 height=120></canvas>
+                        <br><button id="clear-1">Hapus Tanda Tangan</button><br>
+                        <b><p>Keterangan :</p></b>
+                        <ul>
+                            <li>Diisi sesuai ijazah/SKHU</li>
+                            <li>Diisi jika tinggal bersama wali</li>
+                        </ul>
+                    </td>
+                    <td>
+
+                    </td>
+                    <td align="center">
+                        <p><input type="text" class="kota">  <input type="text" class="signature">2016</p>
+                        <p>Calon siswa</p>
+                        <label for="ttdSiswa">Tanda Tangan Digital:</label>
+                        <canvas id="signature-pad-2" class="signature-pad-2" width=200 height=120></canvas>
+                        <br><button id="clear-2">Hapus Tanda Tangan</button><br><br>
+                        <p>Petugas</p>
+                        <label for="ttdPetugas">Tanda Tangan Digital:</label>
+                        <canvas id="signature-pad-3" class="signature-pad-3" width=200 height=120></canvas>
+                        <br><button id="clear-3">Hapus Tanda Tangan</button><br>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

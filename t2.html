@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            align-items: center;
+            align-content: center;
+        }
+        td {
+            padding-right: 100px;
+        }
+        .input-line{
+            width: 95%;
+        }
+    </style>
+</head>
+<body>
+    <h2>FORM REGISTRASI</h2>
+    <table border="0">
+        <form action="">
+            <tr>
+                <td><label for="Nim">Nim</label></td>
+                <td>:</td>
+                <td><input type="text" class="input-line"></td>
+            </tr>
+            <tr>
+                <td><label for="Nama">Nama</label></td>
+                <td>:</td>
+                <td><input type="text" class="input-line"></td>
+            </tr>
+            <tr>
+                <td><label for="jk">Jenis Kelamin</label></td>
+                <td>:</td>
+                <td>
+                    <input type="radio" id="JenisKelamin" name="pil"><label for="JenisKelamin">Laki-Laki</label>
+	                <input type="radio" id="JenisKelamin" name="pil"><label for="JenisKelamin">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="asal">Asal</label></td>
+                <td>:</td>
+                <td>
+                    <select name="asal" id="asal">
+                        <option value="Bandung">Bandung</option>
+                        <option value="Jakarta">Jakarta</option>
+                        <option value="Surabaya">Surabaya</option>
+                        <option value="Jogja">Jogja</option>
+                        <option value="solo">Solo</option>
+                        <option value="Madura">Madura</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="no">No.Telp</label></td>
+                <td>:</td>
+                <td><input type="number" id="no" class="input-line"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Alamat Email</label></td>
+                <td>:</td>
+                <td><input type="text" id="email" class="input-line"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td>:</td>
+                <td><input type="password" id="password" class="input-line"></td>
+            </tr>
+            <tr>
+                <td><label for="Hobi">Hobi</label></td>
+                <td>:</td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="hobi"><label for="hobi">Membaca</label><br> 
+                                <input type="checkbox" id="hobi"><label for="hobi">Menulis</label><br>
+                                <input type="checkbox" id="hobi"><label for="hobi">Olahraga</label><br>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="hobi"><label for="hobi">Road race</label><br> 
+                                <input type="checkbox" id="hobi"><label for="hobi">Menggambar</label><br>
+                                <input type="checkbox" id="hobi"><label for="hobi">Mewarnai</label><br>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                
+            </tr>
+            <tr>
+                <td><label for="deskripsi">Deskripsi diri</label></td>
+                <td>:</td>
+                <td>
+                    <textarea name="deskripsi" id="Alamat" rows="5" cols="50"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    <input type="button" name="submit" id="submit" value="Ok">
+                    <input type="button" name="submit" id="submit" value="Batal">
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Siswa</h1>
+    <form>
+        <table border="1">
+            <tr>
+                <td><label for="namasiswa">Nama Calon Siswa </td>
+                <td>:</td>
+                <td><input type="text" id="namasiswa"></td>
+            </tr>
+            <tr>
+                <td><label for="ttl">Tempat/Tanggal lahir</td>
+                <td>:</td>
+                <td><input type="text" id="ttl">  <input type="date" id="ttl"></td>
+            </tr>
+            <tr>
+                <td><label for="agama">Agama</label></td>
+                <td>:</td>
+                <td><select name="agama" id="agama">
+                    <option value="islam">Islam</option>
+                    <option value="kristen">Kristen prostetan</option>
+                    <option value="kristenKatolik">Kristen Katolik</option>
+                    <option value="Buddha">Buddha</option>
+                    <option value="KongHucu">KongHucu</option>
+                    <option value="Hindu">Hindu</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="alamat">Alamat</label></td>
+                <td>:</td>
+                <td><textarea name="alamat" id="Alamat" rows="5" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="no">No Telp/Hp</label></td>
+                <td>:</td>
+                <td><input type="number" id="no"></td>
+            </tr>
+            <tr>
+                <td><label for="JenisKelamin">Jenis Kelamin</label></td>
+                <td>:</td>
+                <td>
+                    <input type="radio" id="JenisKelamin" name="pil"><label for="JenisKelamin">Laki-Laki</label>
+	                <input type="radio" id="JenisKelamin" name="pil"><label for="JenisKelamin">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="hobi">Hobi</label></td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" id="hobi"><label for="hobi">Membaca</label>  
+    	            <input type="checkbox" id="hobi"><label for="hobi">Menulis</label>
+    	            <input type="checkbox" id="hobi"><label for="hobi">Olahraga</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="poto">Pas Poto</label></td>
+                <td>:</td>
+                <td>
+                    <input type="file" id="poto" name="poto" value="browse.."></td>
+            </tr>
+            <tr>
+                <td><label for="username">Username</label></td>
+                <td>:</td>
+                <td><input type="text" id="username"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td>:</td>
+                <td><input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right">
+                    <input type="button" name="submit" id="submit" value="Submit">
+                    <input type="button" name="reset" id="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 37%;
+        }
+        .input{
+            width: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h2>FORM REGISTRASI</h2>
+    <table border="0">
+        <form action="">
+            <p>Isi data dibawah ini :</p>
+            <tr>
+                <td><label for="Nama">Nama</label></td>
+                <td rowspan="6" class="input"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="deskripsi">Alamat</label></td>
+                <td>
+                    <textarea name="deskripsi" id="Alamat" rows="5" cols="50"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="tempat">Tempat lahir</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="tangggal">Tanggal Lahir</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="jk">Jenis Kelamin</label></td>
+                <td>
+                    <input type="radio" id="JenisKelamin" name="pil"><label for="JenisKelamin">Laki-Laki</label>
+	                <input type="radio" id="JenisKelamin" name="pil"><label for="JenisKelamin">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Pendidikan">Pendidikan</label></td>
+                <td>
+                    <select name="Pendidikan" id="Pendidikan">
+                        <option value="SMK/SMA">SMK/SMA</option>
+                        <option value="S1">S1</option>
+                        <option value="S2">S2</option>
+                        <option value="S3">S3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="button" name="submit" id="submit" value="Cancel">
+                    <input type="button" name="submit" id="submit" value="Sumbit">
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
